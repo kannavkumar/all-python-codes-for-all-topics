@@ -1,0 +1,4215 @@
+print("Hello World")
+print("Kannav")
+
+print("my name is kannav")
+
+print("my age is 18")
+
+print("my name is kannav", " my age is 18")
+
+print(23+50)
+
+name = "kannav"
+age = 18
+price = 25.50
+
+print(name)
+print(age)
+print(price)
+
+print(type(name))
+
+print(type(age))
+print(type(price))
+
+print("my name is", name, "my age is ", age)
+
+print("my name is", name)
+
+print("my age is", age)
+
+# variables are used to store values in it
+
+name = "kannav"
+
+# name is the variable and kannav is the value inside the variable
+
+# datatypes
+# numeric data types
+# integers is nothing but whole numbers
+a = 10
+print(a)
+print(type(a))
+
+# float is nothing but decimal numbers
+a = 25.50
+print(a)
+print(type(a))
+
+# complex is the mixture of real and imaginary number
+
+a = 3+4j
+print(a)
+print(type(a))
+
+# Boolean True or False
+a = True
+
+print(a)
+print(type(a))
+
+# None data type
+a = None
+print(a)
+print(type(a))
+
+# operators
+# arithmetic operators
+a = 10
+b = 2
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(a//b)
+print(a**b)
+print(a%b)
+
+
+# relational/comparison operators
+a = 10
+b = 2
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+
+# assignment operators
+
+a = 10
+b = 2
+
+a += b
+print(a)
+
+
+a = 10
+b = 2
+
+a -= b
+print(a)
+
+a = 10
+b = 2
+
+a *= b
+print(a)
+
+a = 10
+b = 2
+
+a /= b
+print(a)
+
+a = 10
+b = 2
+
+a **= b
+print(a)
+
+a = 10
+b = 2
+
+a //= b
+print(a)
+
+a = 10
+b = 2
+
+a %= b
+print(a)
+
+# logical operators
+
+# operator precedence -> not > and > or
+
+
+a = True
+
+print(a)
+print(not True)
+
+print("a", not True)
+
+# and
+val1 = True
+
+val2 = False
+
+print(val1 and val2)
+
+
+
+val1 = True
+
+val2 = True
+
+print(val1 and val2)
+
+
+# or
+val1 = True
+
+val2 = False
+
+print(val1 or val2)
+
+
+val1 = False
+
+val2 = False
+
+print(val1 or val2)
+
+# expression execution
+# case1. string and numeric values can operate with (*)
+A,B = 1,2
+C = "@"
+print(A*C*B)
+
+# case2. string and string can operate with (+) -> concatenation adding of two strings together
+A,B = "1", 2
+C = "@"
+print((A+C)*B)
+
+# case3. numeric values can operate with all arithmetic operators
+A,B = 2,3
+C = 5
+print(A*B+C)
+
+# case4. arithmetic expression with int and float give result in float
+A,B = 1.5,3
+C = A*B
+print(C)
+
+# case5. result of divison operator with two integers give result in float
+A,B = 5,2
+C = A/B
+print(C)
+
+# case6. integer divison with int and float give int and displayed as float
+A,B = 1.5,3
+C = A//B
+print(C, A/B)
+
+
+# case7. floor gives closest integer which is less than or equal to float value result of (A//B) is same as floor(A/B)
+A,B = 2,3
+C = A//B
+print(C)
+
+A,B = -2,3
+C = A//B
+print(C)
+
+A,B = 2,-3
+C = A//B
+print(C)
+
+
+# case8. remainder is negative when denominator is negative
+
+A,B = 5,2
+c = A%B
+print(c)
+
+
+A,B = -5,2
+c = A%B
+print(c)
+
+
+A,B = 5,-2
+c = A%B
+print(c)
+
+# type conversion
+
+A,B = 2,3
+C = A*B
+print(C)
+
+
+# type casting
+
+A,B = "2", 3
+C = int(A)
+print(C*B)
+
+
+# input in python
+
+# string input in python
+
+name = input("name:")
+print(name)
+print(type(name))
+
+# int input in python
+
+age = int(input("age:"))
+
+print(age)
+print(type(age))
+
+# float input in python
+
+price = float(input("price:"))
+
+print(price)
+
+print(type(price))
+
+# conditional statements
+
+light = input("light color")
+
+if light == "green":
+
+    print("go")
+
+elif light == "red":
+
+    print("stop")
+
+elif light == "yellow":
+
+    print("wait")
+
+else:
+
+    print("light is broken")
+
+
+age = input("age:")
+
+if age == ">=18":
+    print("eligible to vote")
+
+elif age == ">=18":
+
+    print("eligible for driving license")
+
+elif age == ">=18":
+
+    print("eligible for pan card")
+
+else:
+
+    print("under age")
+
+
+
+marks = input("marks:")
+
+if marks == ">=90":
+
+    print("grade A")
+
+elif marks == ">=80":
+
+    print("grade B")
+
+elif marks == ">=70":
+
+    print("grade C")
+
+else:
+
+    print("fail")
+
+A = int(input("A:"))
+
+G = input("M/F:")
+
+if (A == 6 or A == 8) and G == "F":
+
+    print("fee is 200")
+
+elif (A== 5 or A == 9 or G == "M"):
+
+    print("fee is 300")
+
+elif (A == 10 and G == "M"):
+
+    print("fee is 400")
+
+else:
+
+    print("no fee")
+
+
+A = int(input("A:"))
+
+G = input("M/F:")
+
+if (A == 5 or A == 6) and G == "F":
+
+    print("fee is 200")
+
+elif (A== 4 or A == 9 or G == "M"):
+
+    print("fee is 300")
+
+elif (A == 2 and G == "M"):
+
+    print("fee is 400")
+
+else:
+
+    print("no fee")
+
+age = 35
+
+if age >= 18:
+
+    print("can drive")
+
+elif age >= 80:
+
+    print("cannot drive")
+
+else:
+
+    print("under age")
+
+age = 35
+
+if age >= 18:
+
+    if age>= 80:
+
+        print("cannot drive")
+
+    else:
+
+        print("can drive")
+
+else:
+    print("under age")
+
+age = 95
+
+if age >= 18:
+
+    if age>= 80:
+
+        print("cannot drive")
+
+    else:
+
+        print("can drive")
+
+else:
+    print("under age")
+
+
+
+marks = 75
+
+
+if (marks == ">=90"):
+  print("grade A")
+
+
+elif (marks >=80 or marks <90):
+  print("grade B")
+
+
+elif (marks >=70 or marks <80):
+  print("grade C")
+
+
+else:
+  print("fail")
+
+
+
+marks = int(input("enter number:"))
+
+
+if (marks == ">=90"):
+  print("grade A")
+
+
+elif (marks >=80 or marks <90):
+  print("grade B")
+
+
+elif (marks >=70 or marks <80):
+  print("grade C")
+
+
+else:
+  print("fail")
+
+
+
+age = int(input("enter age:"))
+
+if (age == ">=18"):
+  print("eligible to vote")
+
+elif (age >=30 or age <18):
+  print("eligible for driving license")
+
+elif (age >=20 or age <30):
+  print("eligible for pan card")
+
+else:
+  print("under age")
+
+
+
+
+# nested conditional statements
+
+age = 35
+
+if age >= 18:
+    if age >= 80:
+
+        print("cannot drive")
+
+    print("can drive")
+
+else:
+
+    print("under age")
+
+
+age = 35
+
+if age >= 18:
+
+    if age>= 80:
+
+        print("cannot drive")
+
+    else:
+
+        print("can drive")
+
+else:
+    print("under age")
+
+
+age = 95
+
+if age >= 18:
+
+    if age>= 80:
+
+        print("cannot drive")
+
+    else:
+
+        print("can drive")
+
+else:
+    print("under age")
+
+
+
+age = int(input("enter age:"))
+
+if age >= 18:
+
+    if age>= 80:
+
+        print("cannot drive")
+
+    else:
+
+        print("can drive")
+
+else:
+    print("under age")
+
+
+# strings are nothing but combination of different characters
+
+# are immutable data types jiski value change nahi ho sakti
+
+name = "kannav"
+
+print(name)
+
+print(type(name))
+
+# length of string # length always starts from 1
+
+print(len(name))
+
+
+# concatenation adding of two strings together
+
+str1 = "hello"
+
+str2 = "kannav"
+
+print(str1 + str2)
+
+str1 = "hello"
+
+str2 = "kannav"
+
+C =str1 + str2
+
+print(C)
+
+print("my name is kannav \n my age is 18") # new line or next line
+
+print("my name is kannav \t my age is 18") # tab space
+
+
+
+# indexing -> position numbers # always starts from 0
+
+str = "millennium"
+
+print(str[0])
+
+print(str[5])
+
+# slicing start index -> include ,stop index -> exclude
+
+print(str[0:5])
+
+print(str[0:])
+
+print(str[:8])
+
+# negative slicing
+
+print(str[-10:-1])
+
+print(str[:-1])
+
+print(str[-10:])
+
+
+# string methods
+
+str = "extraordinary"
+
+print(str.endswith("ry"))
+
+print(str.capitalize())
+
+print(str.replace("ar", "ps4"))
+
+print(str.find("ar"))
+
+print(str.count("e"))
+
+# lists are mutable data types jiski value change ho sakti hai
+
+l = [1,2,3,6,5,2]
+print(l)
+print(type(l))
+
+print(len(l))
+
+
+# indexing -> position numbers
+
+str = [1,2,3,6,5,2,1,4,5,2,3,6,9,52,1,4,5,2,3,6,2,5,5,6,3]
+
+print(str[0])
+
+print(str[5])
+
+print(str[0:10:2])
+
+# slicing start index -> include stop index -> exclude
+
+print(str[0:5])
+
+print(str[0:])
+
+print(str[:8])
+
+# negative slicing
+
+print(str[-10:-1])
+
+print(str[:-1])
+
+print(str[-10:])
+
+print(str[0:-10:2])
+
+
+# lists method
+
+l = [1,23,6,2,5]
+l.append(50) # add only one element at the end of the list
+print(l)
+
+
+l.extend([25,65]) # add more than one element at the end of the list
+
+print(l)
+
+l.insert(2,45) # add an element in between the list
+
+print(l)
+
+l.pop(2) # pop is based on index number
+
+print(l)
+
+
+l.remove(50) # remove is based directly on element number
+print(l)
+
+l.reverse() # reverses the list
+print(l)
+
+l.copy() # copy the list
+print(l)
+
+l.sort() # arrange in ascending order
+print(l)
+
+l.sort(reverse= True) # arrange in descending order
+print(l)
+
+print(sorted(l))  # arrange in ascending order
+
+print(sorted(l,reverse = True)) # arrange in descending order
+
+
+# tuples are immutable data types jiski value change nahi ho sakti
+
+tup = (12,3,6,3,5)
+print(tup)
+print(type(tup))
+
+print(len(tup))
+
+#  indexing -> position numbers
+
+str = (1,2,3,6,5,2,1,4,5,2,3,6,9,52,1,4,5,2,3,6,2,5,5,6,3)
+
+print(str[0])
+
+print(str[5])
+
+print(str[0:10:2])
+
+# slicing start index -> include stop index -> exclude
+
+print(str[0:5])
+
+print(str[0:])
+
+print(str[:8])
+
+# negative slicing
+
+print(str[-10:-1])
+
+print(str[:-1])
+
+print(str[-10:])
+
+print(str[0:-10:2])
+
+tup = (1)
+print(tup)
+print(type(tup))
+
+tup = (2,)
+print(tup)
+print(type(tup))
+
+tup = ("hello")
+print(tup)
+print(type(tup))
+
+tup = ("world", )
+print(tup)
+
+print(type(tup))
+
+tup = (1,2,3)
+print(tup)
+print(type(tup))
+
+# empty tuple
+
+tup = ()
+print(tup)
+print(type(tup))
+print(len(tup))
+
+# tuples methods
+tup = (1,2,3,6,5)
+print(tup.index(5))
+
+print(tup.count(2))
+
+
+# dictionary in python
+
+dict = {
+    "name" : "kannav",
+    "location" : "gurugram",
+    "subjects" : ["python", "java", "kotlin"],
+    "topics" : ("dict", "set"),
+    "age" : 35,
+    "is_adult" : True,
+    15 : 95,
+    25.50 : 95.36
+
+}
+print(dict)
+print(type(dict))
+print(len(dict))
+print(list(dict))
+print(dict["name"])
+print(dict["age"])
+print(dict["is_adult"])
+print(dict["subjects"])
+print(dict["topics"])
+print(dict[15])
+print(dict[25.50])
+print(dict["location"])
+
+dict["name"] = "veer"
+dict["surname"] = "sharma"
+print(dict)
+
+
+# null dict
+
+null_dict = {}
+print(null_dict)
+print(type(null_dict))
+print(len(null_dict))
+
+# nested dictionary
+
+student = {
+    "name" : "kannav",
+    "subjects" : {
+        "physics" : 95,
+        "chemistry" : 96,
+        "maths" : 90
+    }
+}
+
+print(student)
+print(type(student))
+print(len(student))
+
+print(list(student))
+print(student["name"])
+print(student["subjects"])
+print(student["subjects"]["physics"])
+print(student["subjects"]["chemistry"])
+print(student["subjects"]["maths"])
+
+# dictionary methods
+student = {
+    "name" : "kannav",
+    "subjects" : {
+        "physics" : 95,
+        "chemistry" : 96,
+        "maths" : 90
+    }
+}
+
+print(student.keys())
+print(len(student.keys()))
+print(list(student.keys()))
+print(len(list(student.keys())))
+
+
+student = {
+    "name" : "kannav",
+    "subjects" : {
+        "physics" : 95,
+        "chemistry" : 96,
+        "maths" : 90
+    }
+}
+
+print(student.values())
+print(len(student.values()))
+print(list(student.values()))
+print(len(list(student.values())))
+
+
+student = {
+    "name" : "kannav",
+    "subjects" : {
+        "physics" : 95,
+        "chemistry" : 96,
+        "maths" : 90
+    }
+}
+
+print(student.items())
+print(len(student.items()))
+print(list(student.items()))
+print(len(list(student.items())))
+
+
+student = {
+    "name" : "kannav",
+    "subjects" : {
+        "physics" : 95,
+        "chemistry" : 96,
+        "maths" : 90
+    }
+}
+print(student.get("name"))
+print(student.get("subjects"))
+print(student.get("subjects")["physics"])
+print(student.get("subjects")["chemistry"])
+print(student.get("subjects")["maths"])
+
+
+student = {
+    "name" : "kannav",
+    "subjects" : {
+        "physics" : 95,
+        "chemistry" : 96,
+        "maths" : 90
+    }
+}
+
+null_dict = {"city" : "faridabad"}
+print(null_dict)
+print(type(null_dict))
+student.update(null_dict)
+
+student.update({"age" : 18})
+print(student)
+
+# sets in python # ignores duplicate values sets  are mutable but elements in the set are immutable
+
+collection = {1,2,3,2,1,2,3,6,5,2,1,45,2,3,6,5,2,1,4,5,23,6}
+print(collection)
+print(type(collection))
+print(len(collection))
+
+
+# null set
+
+collection = set()
+print(collection)
+print(type(collection))
+print(len(collection))
+
+# sets method
+
+collection = {1,2,3,2,1,4,5,6,3,25,1,4,5,9,6,2,5,1,4,5,2,3,6}
+collection.add(50)
+print(collection)
+
+collection.remove(2)
+print(collection)
+
+collection.clear()
+print(collection)
+
+collection = {1,2,3,2,1,4,5,6,3,25,1,4,5,9,6,2,5,1,4,5,2,3,6}
+print(collection.pop())
+print(collection.pop())
+print(collection.pop())
+print(collection.pop())
+
+set1 = {1,2,3,2,1,45,6,2,5,3,6}
+set2 = {1,2,3,2,1,4,5,2,3,6,5,9,2,2,53,8,5,1,47,7}
+
+print(set1.union(set2))
+
+print(set1.intersection(set2))
+
+
+# loops
+
+i = 1
+while i <= 5:
+    print("kannav")
+    i += 1
+
+i = 1
+while i <= 5:
+    print("kannav", i)
+    i += 1
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+i = 5
+while i >= 1:
+    print(i)
+    i -= 1
+
+
+i = 1
+while i <= 100:
+    print(i)
+    i += 1
+
+
+i = 100
+while i >= 1:
+
+    print(i)
+    i -= 1
+
+n = int(input("enter number:"))
+
+i = 1
+while i <= 10:
+
+    print( n * i)
+    i += 1
+
+l = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+
+while idx < len(l):
+    print(l[idx])
+    idx += 1
+
+
+l = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+
+while idx < len(l):
+    print(l, idx)
+    idx += 1
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+
+    else:
+
+        print("finding")
+        idx += 1
+
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+        print(idx)
+
+        idx += 1
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+
+        idx += 1
+        print(idx)
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+
+# break
+
+i = 1
+while i <= 10:
+    print(i)
+    if( i == 5):
+        break
+    i += 1
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+        print(idx)
+
+        idx += 1
+        break
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        break
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        break
+    print("end")
+    idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+
+        break
+
+    idx += 1
+
+
+# continue
+
+i = 1
+while i <= 10:
+
+    if( i == 5):
+        i += 1
+        continue
+
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = int(input("enter number"))
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+
+
+i = 1
+
+while i <= 10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+i = 1
+
+while i <= 10:
+    if(i%2 != 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+
+
+
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+        print(idx)
+
+        idx += 1
+        continue
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        idx += 1
+        continue
+
+
+
+
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        idx += 1
+        continue
+
+    else:
+
+        print("finding")
+        print(idx)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        idx += 1
+        continue
+
+
+    print("finding")
+    print(idx)
+    idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100,49)
+
+x = 49
+
+idx = 0
+
+while idx < len(tup):
+
+    if(tup[idx] == x):
+
+        idx += 1
+        continue
+
+
+    print(idx)
+    idx += 1
+
+
+
+# for loops
+
+l = [1,2,3,65,2]
+for val in l:
+    print(val)
+
+
+l = [1,2,3,65,2]
+for val in l:
+    print(val)
+
+else:
+    print("end")
+
+
+l = [1,2,3,65,2]
+for val in l:
+    print(val)
+
+
+print("end")
+
+
+
+fruit = "apple"
+for char in fruit:
+
+    if(char == "l"):
+
+        print("l found")
+
+        break
+else:
+
+    print("end")
+
+fruit = "apple"
+for char in fruit:
+
+    if(char == "l"):
+
+        print("l found")
+
+        break
+
+print("end")
+
+l = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+
+for val in l:
+
+
+    print(l[idx])
+    idx += 1
+    print(val)
+
+
+l = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+
+for val in l:
+
+
+    print(l, idx)
+    idx += 1
+    print(val)
+
+l = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+
+for val in l:
+
+
+    print(l, idx)
+    idx += 1
+
+l = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+
+for val in l:
+
+
+    print(l[idx])
+    idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+
+    else:
+        print("finding")
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        print(val)
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+
+        print("number found at index", idx)
+        print(val)
+
+        idx += 1
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+
+        print("number found at index", idx)
+        print(val)
+
+        idx += 1
+
+        break
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+
+        break
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+
+        break
+    print("finding")
+    print(val)
+    idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(val == x):
+        idx += 1
+        continue
+
+
+
+    print("finding")
+    print(val)
+    idx += 1
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+
+    else:
+        print("finding")
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+        print(val)
+
+        idx += 1
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        print(val)
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        print(val)
+        break
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        break
+
+    else:
+        print("finding")
+        print(val)
+        idx += 1
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        break
+    idx += 1
+
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+
+        print("number found at index", idx)
+
+        idx += 1
+        break
+    idx += 1
+    print(val)
+
+tup = (1,4,9,16,25,36,49,64,81,100, 49)
+x = 49
+
+idx = 0
+
+for val in tup:
+
+    if(tup[idx] == x):
+        idx += 1
+        continue
+    print(val)
+    idx += 1
+
+# range
+
+for val in range(10):
+    print(val)
+
+
+for val in range(1,10):
+    print(val)
+
+
+for val in range(1,10, 2):
+    print(val)
+
+
+for val in range(1,101):
+    print(val)
+
+
+for val in range(100, 0, -2):
+    print(val)
+
+
+n = int(input("enter number:"))
+
+for val in range(1,11):
+    print(n * val)
+    val += 1
+
+
+
+# pass
+
+for val in range(10):
+    pass
+
+print("for some other work")
+
+
+n = 5
+sum = 0
+i = 1
+
+for val in range(1,n+1):
+
+    sum += val
+    val += 1
+
+print("Total sum", sum)
+
+
+n = 5
+sum = 0
+i = 1
+
+while i <= n:
+    sum += i
+    i += 1
+
+
+
+print("Total sum", sum)
+
+
+n = 5
+fact = 1
+i = 1
+
+for val in range(1,n+1):
+
+    fact *= val
+
+    val += 1
+
+print("Total factorial", fact)
+
+
+# functions
+
+def calc_sum(a,b):
+    sum = a+b
+    print(sum)
+    return sum
+
+calc_sum(65,25)
+
+calc_sum(91,54)
+
+
+def print_hello():
+    print("kannav")
+
+print_hello()
+print_hello()
+
+
+def calc_avg(a,b,c):
+
+    sum = a+b+c
+    avg = sum /3
+    print(avg)
+
+calc_avg(98,95,96)
+
+
+cities = ["delhi", "gurugram", "pune", "noida", "chennai"]
+
+heroes = ["hulk", "thor", "spiderman", "batman"]
+
+def print_len(list):
+
+    print(len(list))
+
+print_len(cities)
+print_len(heroes)
+
+
+cities = ["delhi", "gurugram", "pune", "noida", "chennai"]
+
+heroes = ["hulk", "thor", "spiderman", "batman"]
+
+print(heroes[0], end = " ")
+print(heroes[1], end = " ")
+print(heroes[2], end = " ")
+print(heroes[3], end = " ")
+
+cities = ["delhi", "gurugram", "pune", "noida", "chennai"]
+
+heroes = ["hulk", "thor", "spiderman", "batman"]
+
+def print_list(list):
+
+    for item in list:
+
+        print(item, end = " ")
+
+print_list(cities)
+print_list(heroes)
+
+cities = ["delhi", "gurugram", "pune", "noida", "chennai"]
+
+heroes = ["hulk", "thor", "spiderman", "batman"]
+
+def print_l(m):
+
+    print(list(m))
+
+print_l(cities)
+
+print_l(heroes)
+
+def calc_fact(n):
+    fact = 1
+
+    for val in range(1,n+1):
+        fact *= val
+
+        val += 1
+        print(fact)
+
+calc_fact(5)
+
+def converter(usd_val):
+
+    inr_val = usd_val * 83
+
+    print(usd_val, "usd =", inr_val, "inr")
+
+converter(654)
+
+
+
+print("hello")
+
+print("Hello kannav")
+
+print("Hello")
+print("Kannav")
+
+
+
+print("Hello", end = " ")
+print("kannav")
+
+
+print("Hello", end ="$")
+print("kannav")
+
+# default parameters # non default arguments follows default arguments
+
+def calc_prod(a = 5, b = 2):
+    prod = a*b
+    print(prod)
+
+calc_prod()
+calc_prod(50,23)
+
+def calc_prod(a , b = 2):
+    prod = a*b
+    print(prod)
+
+calc_prod(50)
+
+# recursion
+
+def show(n): # function
+    if( n == 0): # base case -> stopping condition
+        return
+    print(n) # work -> kaam
+    show(n-1) # function call karega iss function ko # updation or step size
+
+show(5)
+
+
+def show(n):
+    if( n == 50):
+        return
+    print(n)
+    show(n+5)
+
+show(10)
+
+
+def fact(n):
+
+    if(n == 0 or n == 1):
+        return 1
+
+    return fact(n-1) * n
+
+print(fact(5))
+
+def fact(n):
+
+    if(n == 0 or n == 1):
+        return 1
+
+    else:
+
+
+        return fact(n-1) * n
+
+print(fact(5))
+
+def calc_sum(n):
+
+    if( n == 0):
+        return 0
+
+    return calc_sum(n-1) + n
+
+print(calc_sum(5))
+
+
+def print_list(list, idx = 0):
+    if(idx == len(list)):
+        return
+
+    print(list[idx])
+    print_list(list, idx+1)
+
+fruits = ["apple", "banana", "mango", "guava"]
+
+print_list(fruits)
+
+
+def print_list(list, idx = 0):
+    if(idx == len(list)):
+        return
+
+    print(list, idx)
+    print_list(list, idx+1)
+
+fruits = ["apple", "banana", "mango", "guava"]
+
+print_list(fruits)
+
+# file i/o
+
+f = open("demo.txt", "r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
+
+
+f = open("demo.txt", "r")
+data = f.read()
+print(data)
+f.close()
+
+
+f = open("demo.txt", "rt")
+data = f.read()
+print(data)
+f.close()
+
+
+f = open("demo.txt", "r")
+data = f.read()
+print(data)
+f.close()
+
+
+f = open("demo.txt", "r")
+data = f.readline()
+print(data)
+
+data = f.readline()
+print(data)
+f.close()
+
+
+f = open("demo.txt", "r")
+line1= f.readline()
+print(line1)
+
+line2 = f.readline()
+print(line2)
+f.close()
+
+
+f = open("demo.txt", "r")
+line1= f.readline()
+print(line1)
+
+line2 = f.readline()
+print(line2)
+
+line3 = f.readline()
+print(line3)
+f.close()
+
+
+f = open("demo.txt", "r")
+
+data = f.read()
+print(data)
+
+
+line1= f.readline()
+print(line1)
+
+line2 = f.readline()
+print(line2)
+
+line3 = f.readline()
+print(line3)
+f.close()
+
+
+f = open("demo.txt", "w")
+f.write("abcd")
+f.close()
+
+
+f = open("demo.txt", "a")
+f.write("java")
+f.close()
+
+f = open("sample.txt", "w")
+f.write()
+f.close()
+
+
+f = open("sample.txt", "a")
+f.write()
+f.close()
+
+with open("demo.txt", "r") as f:
+    data = f.read()
+    print(data)
+
+
+with open("demo.txt", "w") as f:
+
+    f.write("abcd")
+
+with open("demo.txt", "a") as f:
+
+    f.write("java")
+
+with open("sample.txt", "w") as f:
+
+    f.write()
+
+with open("sample.txt", "a") as f:
+
+    f.write()
+
+
+import os
+
+os.remove("filename")
+
+
+with open("practice.txt", "w") as f:
+
+    f.write("hi everyone\n we are learning file i/o\n")
+    f.write("using java\n i like programming in java")
+
+
+
+def check_for_word():
+  with open("practice.txt", "r") as f:
+    data = f.read()
+    print(data)
+
+    new_data = data.replace("java", "python")
+    print(new_data)
+
+with open("practice.txt", "w") as f:
+
+    f.write(new_data)
+
+check_for_word()
+
+
+with open("practice.txt", "r") as f:
+    data = f.read()
+    print(data)
+
+
+word = "learning"
+
+with open("sample.txt", "r") as f:
+
+    data = f.read()
+
+    if (word in data):
+        print("found")
+
+    else:
+        print("not found")
+
+
+
+def check_for_line():
+
+    word = "learning"
+    data = True
+    line_no = 1
+
+    with open("sample.txt", "r") as f:
+        while data:
+            data = f.readline()
+            if(word in data):
+                print(line_no)
+                return
+            line_no += 1
+
+        return -1
+
+check_for_line()
+
+
+def check_for_line():
+
+    word = "pyq"
+    data = True
+    line_no = 1
+
+    with open("sample.txt", "r") as f:
+        while data:
+            data = f.readline()
+            if(word in data):
+                print(line_no)
+                return
+            line_no += 1
+
+        return -1
+
+print(check_for_line())
+
+with open("sample.txt", "r") as f:
+
+    data = f.read()
+
+    num = ""
+
+    for val in range(len(data)):
+        if(data[val] == ","):
+            print(int(num))
+
+            num = ""
+
+        else:
+            num += data[val]
+
+count = 0
+
+
+with open("sample.txt", "r") as f:
+
+    data = f.read()
+
+    num = data.split(",")
+
+    for val in num:
+
+        if(int(val) %2 == 0):
+            count += 1
+
+print(count)
+
+
+
+
+
+class Student:
+
+    name = "kannav"
+
+s1 = Student()
+
+print(s1)
+
+
+class Student:
+
+    name = "kannav"
+
+s1 = Student()
+
+print(s1)
+
+print(s1.name)
+
+class Car:
+
+    color = "blue"
+
+    brand = "mercedes"
+
+car1 = Car()
+
+print(car1)
+
+print(car1.color)
+
+print(car1.brand)
+
+print(car1.color, car1.brand)
+
+
+class Student:
+
+    name = "kannav"
+
+    def __init__(self):
+
+        print("adding new student in database")
+
+s1 = Student()
+
+class Student:
+
+    name = "kannav"
+
+    def __init__(self):
+
+        print("adding new student in database")
+
+s1 = Student()
+
+print(s1)
+
+print(s1.name)
+
+
+class Student:
+
+    name = "kannav"
+
+    def __init__(self):
+
+        print(self)
+
+        print("adding new student in database")
+
+s1 = Student()
+
+print(s1)
+
+print(s1.name)
+
+
+class Student:
+
+
+    def __init__(self, name):
+
+        self.name = name
+
+
+
+
+        print("adding new student in database")
+
+s1 = Student("kannav")
+
+print(s1)
+
+print(s1.name)
+
+
+class Student:
+
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+
+
+
+        print("adding new student in database")
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+class Student:
+
+    college_name = "ABC College"
+
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+
+
+
+        print("adding new student in database")
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+print(Student.college_name)
+
+print(s1.college_name)
+
+
+
+class Student:
+
+  # default constructors
+
+  def __init__(self):
+    pass
+
+
+  # parameterized Constructors
+
+  def __init__(self, name, marks):
+
+    self.name = name
+
+    self.marks = marks
+
+    print("adding new student in database")
+
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+
+
+
+class Student:
+
+    college_name = "ABC College"
+
+    name = "anonymous"
+
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+
+
+
+        print("adding new student in database")
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+print(Student.college_name)
+
+print(s1.college_name)
+
+
+class Student:
+
+    def __init__(self, name , marks):
+
+        self.name = name
+
+        self.marks = marks
+
+        print("adding new student in database")
+
+    def hello(self):
+        print("hello", self.name)
+
+    def get_marks(self):
+
+        return self.marks
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+s1.hello()
+
+s1.get_marks()
+
+
+
+class Student:
+
+    def __init__(self, name , marks):
+
+        self.name = name
+
+        self.marks = marks
+
+        print("adding new student in database")
+
+    def hello(self):
+        print("hello", self.name, "your score is", self.marks)
+
+    def get_marks(self):
+
+        return self.marks
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+s1.hello()
+
+s1.get_marks()
+
+
+class Student:
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+    def get_avg(self):
+
+        sum = 0
+
+        for val in self.marks:
+            sum += val
+
+
+
+            print("hii", self.name, "your avg score is", sum /3)
+
+s1 = Student("kannav", [98,95,96])
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+s1.get_avg()
+
+class Student:
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+    @staticmethod
+
+    def hello():
+
+        print("hello")
+
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+s1.hello()
+
+class Student:
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+    @staticmethod
+
+    def hello(name):
+
+        print("hello", name)
+
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+Student.hello(s1.name)
+
+s1.hello(s1.name)
+
+
+class Student:
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+    @staticmethod
+
+    def hello(marks):
+
+        print("hello", marks)
+
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+Student.hello(s1.marks)
+
+s1.hello(s1.marks)
+
+
+class Student:
+
+    def __init__(self, name, marks):
+
+        self.name = name
+
+        self.marks = marks
+
+    @staticmethod
+
+    def hello(name, marks):
+
+        print("hello", name, "your score is", marks)
+
+
+s1 = Student("kannav", 98)
+
+print(s1)
+
+print(s1.name)
+
+print(s1.marks)
+
+print(s1.name, s1.marks)
+
+Student.hello(s1.name, s1.marks)
+
+s1.hello(s1.name, s1.marks)
+
+class Car:
+
+    def __init__(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+    def start(self):
+
+        self.accelerator = True
+
+        self.brk = True
+
+        self.clutch = True
+
+        print("car started")
+
+car1 = Car()
+
+print(car1)
+
+car1.start()
+
+
+class Car:
+
+    def __init__(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+    def start(self):
+
+        self.accelerator = True
+
+        self.brk = True
+
+        self.clutch = True
+
+        print("car started")
+
+    def stop(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+        print("car stopped")
+
+car1 = Car()
+
+print(car1)
+
+car1.start()
+
+car1.stop()
+
+class Car:
+
+    def __init__(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+    def start(self):
+
+        self.accelerator = True
+
+        self.brk = True
+
+        self.clutch = True
+
+        print("car started")
+
+    def stop(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+        print("car stopped")
+
+    def getstatus(self):
+
+        return {
+            "Accelerator" : self.accelerator,
+
+            "Break" : self.brk,
+
+            "Clutch" : self.clutch
+        }
+
+car1 = Car()
+
+print(car1)
+
+car1.start()
+
+car1.stop()
+
+print(car1.getstatus())
+
+
+
+class Car:
+
+    def __init__(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+    def start(self):
+
+        self.accelerator = True
+
+        self.brk = True
+
+        self.clutch = True
+
+        print("car started")
+
+    def stop(self):
+
+        self.accelerator = False
+
+        self.brk = False
+
+        self.clutch = False
+
+        print("car stopped")
+
+    def getstatus(self):
+
+        return {
+            "Accelerator" : self.accelerator,
+
+            "Break" : self.brk,
+
+            "Clutch" : self.clutch
+        }
+
+car1 = Car()
+
+print(car1)
+
+car1.start()
+
+print(car1.getstatus())
+
+car1.stop()
+
+print(car1.getstatus())
+
+
+class Account:
+
+    def __init__(self, balance, account_no):
+
+        self.balance = balance
+
+        self.account_no = account_no
+
+    def debit(self, amount):
+
+        self.balance -= amount
+
+        print("Rs", amount, "was debited")
+
+        print("Total balance", self.get_balance())
+
+
+    def credit(self, amount):
+
+        self.balance += amount
+
+        print("Rs", amount, "was credited")
+
+        print("Total balance", self.get_balance())
+
+
+    def get_balance(self):
+
+        return self.balance
+
+acc1 = Account(10000, 123654)
+
+print(acc1)
+
+print(acc1.balance)
+
+print(acc1.account_no)
+
+print(acc1.balance, acc1.account_no)
+
+acc1.debit(1000)
+
+acc1.credit(5000)
+
+acc1.credit(50000)
+
+acc1.debit(10000)
+
+print(acc1.get_balance())
+
+
+class Student:
+
+    name = "kannav"
+
+s1 = Student()
+
+print(s1)
+
+del s1
+
+print(s1)
+
+class Student:
+
+    name = "kannav"
+
+s1 = Student()
+
+print(s1.name)
+
+del s1.name
+
+print(s1.name)
+
+class Student:
+
+    def __init__(self, name):
+
+        self.name = name
+
+s1 = Student("kannav")
+
+print(s1)
+
+del s1
+
+print(s1)
+
+
+class Student:
+
+    def __init__(self, name):
+
+        self.name = name
+
+s1 = Student("kannav")
+
+print(s1.name)
+
+del s1.name
+
+print(s1.name)
+
+
+class Account:
+
+    def __init__(self, account_no, account_password):
+
+        self.account_no = account_no
+
+        self.account_password = account_password
+
+acc1 = Account("123654", "abcde")
+
+print(acc1)
+
+print(acc1.account_no)
+
+print(acc1.account_password)
+
+print(acc1.account_no, acc1.account_password)
+
+
+class Account:
+
+    def __init__(self, account_no, account_password):
+
+        self.account_no = account_no
+
+        self.__account_password = account_password
+
+acc1 = Account("123654", "abcde")
+
+print(acc1)
+
+print(acc1.account_no)
+
+print(acc1.__account_password)
+
+
+class Account:
+
+    def __init__(self, account_no, account_password):
+
+        self.account_no = account_no
+
+        self.__account_password = account_password
+
+    def resetpassword(self):
+
+        print(self.__account_password)
+
+acc1 = Account("123654", "abcde")
+
+print(acc1)
+
+print(acc1.account_no)
+
+acc1.resetpassword()
+
+class Person:
+
+    __name = "anonymous"
+
+p1 = Person()
+
+print(p1)
+
+print(p1.__name)
+
+class Person:
+
+    __name = "anonymous"
+
+    def __hello():
+        print("hello person")
+
+
+
+p1 = Person()
+
+print(p1)
+
+print(p1.__hello)
+
+
+class Person:
+
+    __name = "anonymous"
+
+    def __hello():
+        print("hello person")
+
+    def welcome(self):
+        print(self.__name)
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.welcome()
+
+
+class Person:
+
+    __name = "anonymous"
+
+    def __hello(self):
+        print("hello person")
+
+    def welcome(self):
+        self.__hello()
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.welcome()
+
+class Car:
+
+    @staticmethod
+
+    def start():
+
+        print("car started")
+
+    @staticmethod
+
+    def stop():
+
+        print("car stopped")
+
+class ToyotaCar(Car):
+
+    def __init__(self, name, type):
+
+        self.name = name
+
+        self.type = type
+
+car1 = ToyotaCar("fortuner", "diesel")
+
+print(car1)
+
+print(car1.name)
+
+print(car1.type)
+
+print(car1.name, car1.type)
+
+car1.start()
+
+car1.stop()
+
+
+class Car:
+
+    color = "black"
+
+    @staticmethod
+
+    def start():
+
+        print("car started")
+
+    @staticmethod
+
+    def stop():
+
+        print("car stopped")
+
+class ToyotaCar(Car):
+
+    def __init__(self, name, type):
+
+        self.name = name
+
+        self.type = type
+
+car1 = ToyotaCar("fortuner", "diesel")
+
+print(car1)
+
+print(car1.name)
+
+print(car1.type)
+
+print(car1.name, car1.type)
+
+car1.start()
+
+car1.stop()
+
+print(car1.color)
+
+
+class Car:
+
+    @staticmethod
+
+    def start():
+
+        print("car started")
+
+    @staticmethod
+
+    def stop():
+
+        print("car stopped")
+
+class ToyotaCar(Car):
+
+    def __init__(self, brand):
+
+        self.brand = brand
+
+
+
+class FortunerCar(ToyotaCar):
+
+    def __init__(self, type):
+
+        self.type = type
+
+car1 = FortunerCar("diesel")
+
+print(car1)
+
+print(car1.type)
+
+car1.start()
+
+car1.stop()
+
+class A:
+
+    varA = "welcome to class A"
+
+class B:
+
+    varB = "welcome to class B"
+
+class C(A,B):
+
+    varC = "welcome to class C"
+
+c1 = C()
+
+print(c1)
+
+print(c1.varA)
+
+print(c1.varB)
+
+print(c1.varC)
+
+print(c1.varA, c1.varB, c1.varC)
+
+
+
+class Car:
+
+    def __init__(self, type):
+
+        self.type = type
+
+    @staticmethod
+
+    def start():
+
+        print("car started")
+
+    @staticmethod
+
+    def stop():
+
+        print("car stopped")
+
+class ToyotaCar(Car):
+
+    def __init__(self, name, type):
+
+        self.name = name
+
+        self.type = type
+
+car1 = ToyotaCar("fortuner", "diesel")
+
+print(car1)
+
+print(car1.name)
+
+print(car1.type)
+
+print(car1.name, car1.type)
+
+car1.start()
+
+car1.stop()
+
+
+class Car:
+
+    def __init__(self, type):
+
+        self.type = type
+
+    @staticmethod
+
+    def start():
+
+        print("car started")
+
+    @staticmethod
+
+    def stop():
+
+        print("car stopped")
+
+class ToyotaCar(Car):
+
+    def __init__(self, name, type):
+
+        super().__init__(type)
+
+        self.name = name
+
+
+car1 = ToyotaCar("fortuner", "diesel")
+
+print(car1)
+
+print(car1.name)
+
+print(car1.type)
+
+print(car1.name, car1.type)
+
+car1.start()
+
+car1.stop()
+
+class Car:
+
+    def __init__(self, type):
+
+        self.type = type
+
+    @staticmethod
+
+    def start():
+
+        print("car started")
+
+    @staticmethod
+
+    def stop():
+
+        print("car stopped")
+
+class ToyotaCar(Car):
+
+    def __init__(self, name, type):
+
+        super().__init__(type)
+
+        self.name = name
+
+        super().start()
+
+
+car1 = ToyotaCar("fortuner", "diesel")
+
+print(car1)
+
+print(car1.name)
+
+print(car1.type)
+
+print(car1.name, car1.type)
+
+car1.start()
+
+car1.stop()
+
+
+class Person:
+
+    name = "anonymous"
+
+p1 = Person()
+
+print(p1)
+
+print(p1.name)
+
+
+class Person:
+
+    name = "anonymous"
+
+
+    def changename(self, name):
+
+        self.name = name
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.changename("rahul kumar")
+
+print(p1.name)
+
+print(Person.name)
+
+class Person:
+
+    name = "anonymous"
+
+
+    def changename(self, name):
+
+        Person.name = name
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.changename("rahul kumar")
+
+print(p1.name)
+
+print(Person.name)
+
+
+class Person:
+
+    name = "anonymous"
+
+
+    def changename(self, name):
+
+        self.__class__.name = "rahul kumar"
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.changename("rahul kumar")
+
+print(p1.name)
+
+print(Person.name)
+
+
+class Person:
+
+    name = "anonymous"
+
+
+    def changename(self, name):
+
+        self.__class__.name = name
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.changename("rahul kumar")
+
+print(p1.name)
+
+print(Person.name)
+
+
+class Person:
+
+    name = "anonymous"
+
+    @classmethod
+    def changename(cls, name):
+
+        cls.name = name
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.changename("rahul kumar")
+
+print(p1.name)
+
+print(Person.name)
+
+class Person:
+
+    name = "anonymous"
+
+    @classmethod
+    def changename(cls, name):
+
+        cls.name = "rahul kumar"
+
+
+
+p1 = Person()
+
+print(p1)
+
+p1.changename("rahul kumar")
+
+print(p1.name)
+
+print(Person.name)
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+print(s1.percentage)
+
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+    def calculatepercentage(self):
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+s1.calculatepercentage()
+
+print(s1.percentage)
+
+s1.phy = 85
+
+print(s1.phy)
+
+s1.calculatepercentage()
+
+print(s1.percentage)
+
+
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+
+    @property
+
+    def calculatepercentage(self):
+
+        return (self.phy + self.chem + self.maths) /3
+
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+
+print(s1.calculatepercentage)
+
+s1.phy = 85
+
+print(s1.phy)
+
+
+
+print(s1.calculatepercentage)
+
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+
+    @property
+
+    def calculatepercentage(self):
+
+        return (self.phy + self.chem + self.maths) /3
+
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+print(s1.calculatepercentage)
+
+# print(s1.percentage)
+
+s1.phy = 85
+
+print(s1.phy)
+
+print(s1.calculatepercentage)
+
+# print(s1.percentage)
+
+
+
+
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+
+    @property
+
+    def calculatepercentage(self):
+
+        return (self.phy + self.chem + self.maths) /3
+
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+print(s1.calculatepercentage)
+
+print(s1.percentage)
+
+s1.phy = 85
+
+print(s1.phy)
+
+print(s1.calculatepercentage)
+
+print(s1.percentage)
+
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+
+    @property
+
+    def calculatepercentage(self):
+
+        return str((self.phy + self.chem + self.maths) /3) + "%"
+
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+print(s1.calculatepercentage)
+
+# print(s1.percentage)
+
+s1.phy = 85
+
+print(s1.phy)
+
+print(s1.calculatepercentage)
+
+# print(s1.percentage)
+
+
+
+class Student:
+
+    def __init__(self, phy, chem, maths):
+
+        self.phy = phy
+
+        self.chem = chem
+
+        self.maths = maths
+
+        self.percentage = (self.phy + self.chem + self.maths) /3
+
+
+    @property
+
+    def calculatepercentage(self):
+
+        return str((self.phy + self.chem + self.maths) /3) + "%"
+
+
+s1 = Student(98,95,96)
+
+print(s1)
+
+print(s1.phy)
+
+print(s1.chem)
+
+print(s1.maths)
+
+print(s1.phy, s1.chem, s1.maths)
+
+print(s1.calculatepercentage)
+
+print(s1.percentage)
+
+s1.phy = 85
+
+print(s1.phy)
+
+print(s1.calculatepercentage)
+
+print(s1.percentage)
+
+class Complex:
+
+    def __init__(self, real, img):
+
+        self.real = real
+
+        self.img = img
+
+    def shownumber(self):
+
+        print(self.real, "i +", self.img, "j")
+
+num1 = Complex(1,2)
+
+print(num1)
+
+print(num1.real)
+
+print(num1.img)
+
+print(num1.real, num1.img)
+
+num1.shownumber()
+
+num2 = Complex(4,5)
+
+print(num2)
+
+print(num2.real)
+
+print(num2.img)
+
+print(num2.real, num2.img)
+
+num2.shownumber()
+
+
+
+
+class Complex:
+
+    def __init__(self, real, img):
+
+        self.real = real
+
+        self.img = img
+
+    def shownumber(self):
+
+        print(self.real, "i +", self.img, "j")
+
+    def add(self, num2):
+
+        newreal = self.real + num2.real
+
+        newimg = self.img + num2.img
+
+        return Complex(newreal, newimg)
+
+num1 = Complex(1,2)
+
+print(num1)
+
+print(num1.real)
+
+print(num1.img)
+
+print(num1.real, num1.img)
+
+num1.shownumber()
+
+num2 = Complex(4,5)
+
+print(num2)
+
+print(num2.real)
+
+print(num2.img)
+
+print(num2.real, num2.img)
+
+num2.shownumber()
+
+num3 = num1.add(num2)
+
+num3.shownumber()
+
+
+
+class Complex:
+
+    def __init__(self, real, img):
+
+        self.real = real
+
+        self.img = img
+
+    def shownumber(self):
+
+        print(self.real, "i +", self.img, "j")
+
+    def __add__(self, num2):
+
+        newreal = self.real + num2.real
+
+        newimg = self.img + num2.img
+
+        return Complex(newreal, newimg)
+
+num1 = Complex(1,2)
+
+print(num1)
+
+print(num1.real)
+
+print(num1.img)
+
+print(num1.real, num1.img)
+
+num1.shownumber()
+
+num2 = Complex(4,5)
+
+print(num2)
+
+print(num2.real)
+
+print(num2.img)
+
+print(num2.real, num2.img)
+
+num2.shownumber()
+
+num3 = num1 + num2
+
+num3.shownumber()
+
+class Complex:
+
+    def __init__(self, real, img):
+
+        self.real = real
+
+        self.img = img
+
+    def shownumber(self):
+
+        print(self.real, "i +", self.img, "j")
+
+    def __add__(self, num2):
+
+        newreal = self.real + num2.real
+
+        newimg = self.img + num2.img
+
+        return Complex(newreal, newimg)
+
+    def __sub__(self, num2):
+
+        newreal = self.real - num2.real
+
+        newimg = self.img - num2.img
+
+        return Complex(newreal, newimg)
+
+
+num1 = Complex(1,2)
+
+print(num1)
+
+print(num1.real)
+
+print(num1.img)
+
+print(num1.real, num1.img)
+
+num1.shownumber()
+
+num2 = Complex(4,5)
+
+print(num2)
+
+print(num2.real)
+
+print(num2.img)
+
+print(num2.real, num2.img)
+
+num2.shownumber()
+
+num3 = num1 + num2
+
+num3.shownumber()
+
+num3 = num1 - num2
+
+num3.shownumber()
+
+class Circle:
+
+    def __init__(self, radius):
+
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+    def perimeter(self):
+
+        return 2 * 3.14 * self.radius
+
+c1 = Circle(21)
+
+print(c1)
+
+print(c1.radius)
+
+print(c1.area())
+
+print(c1.perimeter())
+
+
+class Circle:
+
+    def __init__(self, radius):
+
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+    def perimeter(self):
+
+        return 2 * 3.14 * self.radius
+
+c1 = Circle(21)
+
+print(c1)
+
+print(c1.radius)
+
+print(c1.area())
+
+print(c1.perimeter())
+
+
+class Circle:
+
+    def __init__(self, radius):
+
+        self.radius = radius
+
+    def area(self):
+        return (22/7) * self.radius * self.radius
+
+    def perimeter(self):
+
+        return 2 * (22/7) * self.radius
+
+c1 = Circle(21)
+
+print(c1)
+
+print(c1.radius)
+
+print(c1.area())
+
+print(c1.perimeter())
+
+
+
+class Employee:
+
+    def __init__(self, role , dept, salary):
+
+        self.role = role
+
+        self.dept = dept
+
+        self.salary = salary
+
+    def getdetails(self):
+
+        print("role =", self.role)
+
+        print("dept =", self.dept)
+
+        print("salary =", self.salary)
+
+e1 = Employee("accountant", "finance"," 80,000")
+
+print(e1)
+
+print(e1.role)
+
+print(e1.dept)
+
+print(e1.salary)
+
+print(e1.role, e1.dept, e1.salary)
+
+e1.getdetails()
+
+
+class Employee:
+
+    def __init__(self, role , dept, salary):
+
+        self.role = role
+
+        self.dept = dept
+
+        self.salary = salary
+
+    def getdetails(self):
+
+        print("role =", self.role)
+
+        print("dept =", self.dept)
+
+        print("salary =", self.salary)
+
+
+class Engineer(Employee):
+
+    def __init__(self, name , age):
+
+        self.name = name
+
+        self.age = age
+
+        super().__init__("engineer", "IT", "100,000")
+
+engg1 = Engineer("elon musk", 40)
+
+print(engg1)
+
+print(engg1.name)
+
+print(engg1.age)
+
+print(engg1.name, engg1.age)
+
+print(engg1.role)
+
+print(engg1.dept)
+
+print(engg1.salary)
+
+print(engg1.role, engg1.dept, engg1.salary)
+
+engg1.getdetails()
+
+
+class Order:
+
+    def __init__(self, item ,price):
+
+        self.item = item
+
+        self.price = price
+
+    def __gt__(self, odr2):
+
+        return self.price > odr2.price
+
+odr1 = Order("chips", 50)
+
+print(odr1)
+
+print(odr1.item)
+
+print(odr1.price)
+
+print(odr1.item, odr1.price)
+
+odr2 = Order("lays", 20)
+
+print(odr2)
+
+print(odr2.item)
+
+print(odr2.price)
+
+print(odr2.item, odr2.price)
+
+print(odr1 > odr2)
+
+
+
+
+        
+
